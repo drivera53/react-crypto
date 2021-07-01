@@ -1,0 +1,45 @@
+.cryptoList {
+    background-color: white;
+    flex: 0.3;
+    flex-shrink: 0;  
+    flex-direction: column;
+    padding: 0px 30px 30px 30px;
+    color: black;
+}
+
+.cryptoList__container {
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #42494d;
+}
+
+.crypto__header {
+    /* display: flex; */
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #42494D; */
+    padding: 20px 20px 10px 20px;
+    font-weight: 500;
+}
+
+.crypto__header_medium {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #42494D;
+    border-top: 1px solid #42494D;
+    padding: 20px 20px 10px 20px;
+    font-weight: 500;
+}
+
+.crypto__content {
+
+}
+
+.crypto__rows {
+
+}

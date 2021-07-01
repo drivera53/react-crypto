@@ -1,0 +1,56 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 24px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.row:hover {
+background-color: #6acff7;
+}
+
+.row__intro > h1 {
+font-size: 16px;
+font-weight: bold;
+padding-bottom: 2px;
+}
+
+.row__intro > p {
+font-size: 12px;
+}
+
+.row__numbers {
+text-align: end;
+font-weight: 500;
+}
+
+.row__price {
+padding-bottom: 4px;
+}
+
+.row__percentage {
+color: #5AC53B;
+}
+
+.row__mini_chart {
+    padding: 0 10px;
+}
+
+.row__image {
+    padding: 0 10px;
+}
+
+.rowHoldings {
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    padding: 0 24px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rowHoldings:hover {
+background-color: #6acff7;
+}

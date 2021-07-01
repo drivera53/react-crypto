@@ -1,0 +1,94 @@
+:root{
+    --active: white;
+    --reg: rgb(3, 3, 247);
+    --time: 2s;
+    --delay: 1;
+}
+
+#rectangle1{
+    fill: var(--reg);
+    animation-name: spin;
+    animation-duration: var(--time);
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+}
+#rectangle2{
+    fill: var(--reg);
+    animation-name: spin;
+    animation-duration: var(--time);
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 400ms;
+}
+#rectangle3{
+    fill: var(--reg);
+    animation-name: spin;
+    animation-duration: var(--time);
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 600ms;
+}
+#rectangle4{
+    fill: var(--reg);
+    animation-name: spin;
+    animation-duration: var(--time);
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 800ms;
+}
+#rectangle5{
+    fill: var(--reg);
+    animation-name: spin;
+    animation-duration: var(--time);
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+}
+#rectangle6{
+    fill: var(--reg);
+    animation-name: spin;
+    animation-duration: var(--time);
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 1200ms;
+}
+#rectangle7{
+    fill: var(--reg);
+    animation-name: spin;
+    animation-duration: var(--time);
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 1400ms;
+}
+#rectangle8{
+    fill: var(--reg);
+    animation-name: spin;
+    animation-duration: var(--time);
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes spin {
+    33%{
+        fill: var(--reg)
+    }
+
+    66%{
+        fill: var(--active);
+    }
+    99%{
+        fill: var(--reg);
+    }
+    
+}
